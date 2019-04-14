@@ -29,7 +29,7 @@
     $host = "aryadb1.database.windows.net";
     $user = "aryadb";
     $pass = "PORTALya000";
-    $db = "aryadb";
+    $db = "aryadb1";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
